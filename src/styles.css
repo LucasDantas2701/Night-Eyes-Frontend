@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ededed;
+  --foreground: #162440;
+  --primary: #2979ff;
+  --secondary: #6638a6;
+  --navy-dark: #162440;
+  --safety-green: #197352;
+}
+
+html { font-size: 16px; }
+body { background: var(--background); color: var(--foreground); margin: 0; }
+button { cursor: pointer; }
+button:disabled { cursor: not-allowed; }
